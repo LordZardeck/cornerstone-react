@@ -1,0 +1,33 @@
+{
+  "name": "cornerstone-react",
+  "version": "0.1.0",
+  "description": "Simple utility to add react apps to BigCommerce Cornerstone themes",
+  "main": "dist/cornerstone-react.cjs.js",
+  "module": "dist/cornerstone-react.esm.js",
+  "browser": "dist/cornerstone-react.umd.js",
+  "scripts": {
+    "build": "rollup -c",
+    "pretest": "npm run build"
+  },
+  "keywords": [
+    "bigcommerce",
+    "cornerstone",
+    "react",
+    "theme"
+  ],
+  "author": "Sean Templeton",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "prettier": "2.6.2",
+    "rollup": "^2.70.2",
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-node-resolve": "^13.2.1",
+    "rollup-plugin-babel": "^4.4.0"
+  }
+}
