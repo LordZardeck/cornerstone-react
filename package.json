@@ -1,6 +1,6 @@
 {
   "name": "cornerstone-react",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Simple utility to add react apps to BigCommerce Cornerstone themes",
   "main": "dist/cornerstone-react.cjs.js",
   "module": "dist/cornerstone-react.esm.js",
