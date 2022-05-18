@@ -22,7 +22,7 @@ class CornerstoneRootComponent {
 
 		CornerstoneRootComponent.instance.children.push(cornerstoneComponent);
 		CornerstoneRootComponent.instance.render();
-		cornerstoneComponent.addEventListener('render', CornerstoneRootComponent.instance.onChildRender);
+		cornerstoneComponent.addEventListener('render', () => CornerstoneRootComponent.instance.onChildRender());
 
 		return cornerstoneComponent;
 	}
